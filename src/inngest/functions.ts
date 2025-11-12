@@ -16,7 +16,7 @@ export const execute = inngest.createFunction(
   async ({ event, step }) => {
     await step.sleep("pretend", "5s"); // Simulate some processing time
 
-    //Sentry.logger.info('User triggered test log', { log_source: 'sentry_test' })
+    //Sentry.logger.info('User triggered test log', { log_source: 'sentry_test' })  
     //console.warn("Something is missing");
     //console.log("Just a regular log message");
 
